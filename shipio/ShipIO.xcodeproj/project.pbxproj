@@ -174,6 +174,7 @@
 				0A243A0C158EBCB800C9CCCC /* Sources */,
 				0A243A0D158EBCB800C9CCCC /* Frameworks */,
 				0A243A0E158EBCB800C9CCCC /* Resources */,
+				AEF9F5CF1A2E7F360094A34E /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -266,6 +267,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		AEF9F5CF1A2E7F360094A34E /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "touch /Users/pivotal/workspace/shipio/helloworld.test";
 		};
 /* End PBXShellScriptBuildPhase section */
 
